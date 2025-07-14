@@ -61,5 +61,4 @@ extra:
       link: mailto:admin@yiruru.com
 #  generator: false  #删除通知“Made with Material for MkDocs”，一般不必
 #  analytics: #设置站点分析
-#    provider: google
 #    property: G-XXXXXXXXXX
