@@ -7,7 +7,6 @@ theme:
   - pymdownx.snippets  #片段，将任意文件或部分内容嵌入到文档中  
   - admonition  #警告或标注
   - pymdownx.details  #细节折叠
-  - pymdownx.superfences  #超级围栏
   - attr_list   #属性列表（按钮-颜色图标）
   - def_list   #定义列表
   - footnotes  #行内脚注
