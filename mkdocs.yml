@@ -2,7 +2,7 @@ site_name: My Docs
 theme:
   name: material
   copyright: Copyright &copy; 2024 | Cat Tom
-  markdown_extensions:  #推荐配置Markdown基本语法及其扩展
+markdown_extensions:  #推荐配置Markdown基本语法及其扩展
   - abbr #缩写或名词
   - pymdownx.snippets  #片段，将任意文件或部分内容嵌入到文档中  
   - admonition  #警告或标注
