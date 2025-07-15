@@ -2,14 +2,14 @@ site_name: 此山中
 site_author: Zhang Yahuah
 copyright: Copyright &copy; 2025 | Zhang Yahuah
 nav:
-  - 首页: docs/index.md
+  - 首页: index.md
   - 闲谈: 
-    - chat1: docs/chat1.md
-    - chat2: docs/chat2.md
+    - chat1: chat1.md
+    - chat2: chat2.md
   - 笔记: 
-    - note1: docs/note1.md
-    - note2: docs/note2.md
-  - 关于: docs/about.md
+    - note1: note1.md
+    - note2: note2.md
+  - 关于: about.md
 
 theme:
   name: material
