@@ -4,6 +4,7 @@
 
 ## second
 
-???+ note "666"
-
+???+ note "trial"
+    ```
     import a
+    ```

@@ -4,5 +4,7 @@
 
 ## second
 
-!!! note "trial"
+??? note "trial"
+    ```
     import a
+    ```
