@@ -1,6 +1,11 @@
 site_name: 此山中
 site_author: Zhang Yahuah
 copyright: Copyright &copy; 2025 | Zhang Yahuah
+nav:
+  - 首页: index.md
+  - 闲谈: chat.md
+  - 笔记: note.md
+  - 关于: about.md
 theme:
   name: material
   palette:
