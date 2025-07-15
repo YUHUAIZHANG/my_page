@@ -1,7 +1,8 @@
-site_name: My Docs
+site_name: 此山中
+site_author: Zhang Yahuah
+copyright: Copyright &copy; 2025 | Zhang Yahuah
 theme:
   name: material
-  copyright: Copyright &copy; 2025 | Zhang Yuhuai
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
