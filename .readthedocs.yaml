@@ -22,4 +22,4 @@ mkdocs:
 #    - requirements: docs/requirements.txt
 python:
   install:
-    - mkdocs-material     
+    - requirements: docs/requirements.txt  
