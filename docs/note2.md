@@ -5,6 +5,4 @@
 ## second
 
 ???+ note ""
-    ```
     import a
-    ```
