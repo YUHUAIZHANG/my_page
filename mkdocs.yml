@@ -1,7 +1,34 @@
 site_name: My Docs
 theme:
   name: material
-  copyright: Copyright &copy; 2024 | Cat Tom
+  copyright: Copyright &copy; 2025 | Zhang Yuhuai
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: 关闭自动模式
+    #primary: blue grey
+    - media: "(prefers-color-scheme: light)"
+      scheme: default # 日间模式
+      primary: indigo # 上方的
+      accent: blue # 链接等可交互元件的高亮色
+      # teal
+      toggle:
+        icon: material/brightness-7 # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate # 夜间模式
+      primary: black
+      accent: indigo
+      # teal
+      toggle:
+        icon: material/brightness-4
+        name: 切换至日间模式
+  features:
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - search.suggest # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight # 搜索出的文章关键词加入高亮
+
 markdown_extensions:  #推荐配置Markdown基本语法及其扩展
   - abbr #缩写或名词
   - pymdownx.snippets  #片段，将任意文件或部分内容嵌入到文档中  
@@ -23,9 +50,33 @@ markdown_extensions:  #推荐配置Markdown基本语法及其扩展
       generic: true  
   - pymdownx.betterem:   #粗体斜体
       smart_enable: all
-  - pymdownx.arithmatex:
-      generic: true
-
+  - pymdownx.caret
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format:
+            !!python/name:pymdownx.superfences.fence_code_format # 代码块高亮插件
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      linenums: true # 显示行号
+     # auto_title: true # 显示编程语言名称
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
